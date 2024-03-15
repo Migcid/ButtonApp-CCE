@@ -1,17 +1,20 @@
 import React from "react";
-import { Button, View, StyleSheet } from "react-native";
+import { View, StyleSheet } from "react-native";
 import * as WebBrowser from 'expo-web-browser';
+import { PaperProvider } from "react-native-paper";
+import { Button } from "react-native-paper";
 
 export function ReloadButton() {
   return (
-    <View style={styles.container}>
+    <PaperProvider>
+        <View >
      
-      <Button
-        title="Volver a abrir Pagina Web"
-        onPress={() => WebBrowser.openBrowserAsync('https://www.iglesiacce.org')}
-        style={styles.button}
-      />
-    </View>
+            <Button
+                icon="send" mode="elevated" onPress={() => WebBrowser.openBrowserAsync('https://www.iglesiacce.org')}> Volver a Abrir Pagina
+            </Button>
+        </View>
+    </PaperProvider>
+    
   );
 }
 
@@ -23,5 +26,9 @@ const styles = StyleSheet.create({
   },
   button: {
     marginVertical: 10,
+    borderRadius: 10,
+    color: 'black',
+    backgroundColor: 'green',
+    
   },
 });

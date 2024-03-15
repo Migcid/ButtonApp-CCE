@@ -19,7 +19,7 @@ export function Iglesia() {
  return (
     <View>
         <Text>
-            Abriendo Pagina Web...
+            Pagina web abierta
         </Text>
     </View>
  )
