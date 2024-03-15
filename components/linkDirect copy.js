@@ -16,11 +16,5 @@ export function Iglesia() {
         await WebBrowser.openBrowserAsync('https://www.iglesiacce.org');
       };
     
- return (
-    <View>
-        <Text>
-            Pagina web abierta
-        </Text>
-    </View>
- )
+ return 
 };

@@ -7,9 +7,9 @@ import { Button } from "react-native-paper";
 export function ReloadButton() {
   return (
     <PaperProvider>
-        <View >
+        <View  style={styles.container}>
      
-            <Button
+            <Button 
                 icon="send" mode="elevated" onPress={() => WebBrowser.openBrowserAsync('https://www.iglesiacce.org')}> Volver a Abrir Pagina
             </Button>
         </View>
@@ -23,12 +23,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  button: {
-    marginVertical: 10,
-    borderRadius: 10,
-    color: 'black',
-    backgroundColor: 'green',
+
     
   },
 });

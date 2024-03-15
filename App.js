@@ -4,13 +4,14 @@ import { Iglesia } from "./components/linkDirect copy";
 import { ReloadButton } from './components/reOpen';
 
 
+
 export default function App() {
   return (
     <View style={styles.container}>
       
       <Iglesia />
       <ReloadButton />
-      
+
     </View>
   );
 }
@@ -18,8 +19,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    
-    backgroundColor: '#fff',
+    backgroundColor: '#D8E30E',
     alignItems: 'center',
     justifyContent: 'center',
   },
