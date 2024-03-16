@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "botonAppCCE",
+    "name": "CCE App",
     "slug": "botonAppCCE",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,8 +8,9 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#cedfd5",
+      "splashFadeDuration": "3000"
     },
     "assetBundlePatterns": [
       "**/*"
