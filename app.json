@@ -10,7 +10,7 @@
       "image": "./assets/splash.png",
       "resizeMode": "cover",
       "backgroundColor": "#cedfd5",
-      "splashFadeDuration": "3000"
+      "duration": 3000
     },
     "assetBundlePatterns": [
       "**/*"
@@ -22,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.miguelgta.botonAppCCE"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3cb6ae33-a6e1-4c96-8483-82839a90a0f4"
+      }
     }
   }
 }
